@@ -1,11 +1,14 @@
 // secret-message.js
+// import functions
+import {
+  toggleHiddenElement,
+  changeToFunkyColor,
+} from "../modules/domFunction.js";
 
 // This is the button element
 const buttonElement = document.getElementById("secret-button");
 // This is the p element
 const pElement = document.getElementById("secret-p");
-
-
 
 // Event listener for the button
 buttonElement.addEventListener("click", () => {
