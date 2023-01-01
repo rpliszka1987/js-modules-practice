@@ -5,6 +5,11 @@ import {
   changeToFunkyColor,
 } from "../modules/domFunction.js";
 
+// importing default
+// import resources from "../modules/domFunction";
+
+// const { toggleHiddenElement, changeToFunkyColor } = resources;
+
 // Gets button element from html
 const buttonElement = document.getElementById("secret-button");
 

@@ -5,6 +5,11 @@ import {
   changeToFunkyColor,
 } from "../modules/domFunction.js";
 
+// importing default
+// import domFunction from "../modules/domFunction";
+
+// const { toggleHiddenElement, changeToFunkyColor } = domFunction;
+
 // This is the button element
 const buttonElement = document.getElementById("secret-button");
 // This is the p element
