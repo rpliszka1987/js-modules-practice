@@ -5,6 +5,7 @@
 - [Introduction](#introduction)
 - [Runtime Environment](#runtime-environment)
 - [sites](#sites)
+- [WorkAround Explorer](#workaround-explorer)
 
 ## Introduction
 
@@ -31,3 +32,7 @@ secret-message.js - Is JS file which hold JS code which is being used in the sec
 ## Sites
 
 This is a directory made up of 3 directories: modules, secretImageSite, and secretMessageSite. The secretImageSite and secretMessageSite are 2 directories containing a HTML file and a JS file. HTML file is used to structure the site with buttons which perform call a function to make changes to the site. This makes the sites interactive. Due to both sites using the same functions for simmilar purposes there is a directory called modules which contain a JS file with the functions which can be used in both sites. These two functions toggleHiddenElement() and changeToFunkyColor() are exported and then imported to both JS files in each of the sites directories. This is to show the use of different modules in more then one file. It is used to prevent duplication of code and it can be shared by as many directories as needed. This was a great example of using modules to resuse the functionality of each function in different sites.
+
+## WorkAround Explorer
+
+This is a Code Academy assignment which is called WorkAround Explorer.
