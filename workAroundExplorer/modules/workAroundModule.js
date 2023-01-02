@@ -37,9 +37,9 @@ function calculateAverage(arrayOfNumbers) {
   return (total / arrayOfNumbers.length).toFixed(2);
 }
 
-export {
-  getAverageSalaryByRole,
-  getAverageSalaryByCompany,
-  getSalaryAtCompany,
-  getIndustryAverageSalary,
-};
+// export {
+//   getAverageSalaryByRole,
+//   getAverageSalaryByCompany,
+//   getSalaryAtCompany,
+//   getIndustryAverageSalary,
+// };
